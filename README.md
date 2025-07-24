@@ -1,83 +1,41 @@
-📺 AniList Explorer
-A simple and fast anime explorer built with React + Vite, using the AniList GraphQL API to fetch real-time anime data.
+# 📺 AniList Explorer
 
+A simple and fast anime explorer built with **React** + **Vite**, using the [AniList GraphQL API](https://anilist.gitbook.io) to fetch real-time anime data.
 
-✨ Features
-🔍 Search for anime titles via AniList GraphQL API
+![Vite + React](https://img.shields.io/badge/Vite-%5E5.0-purple?style=flat&logo=vite)
+![React](https://img.shields.io/badge/React-18.x-blue?style=flat&logo=react)
+![GraphQL](https://img.shields.io/badge/API-AniList-ff69b4?style=flat&logo=graphql)
 
-🖼️ Display cover images, titles, and details
+---
 
-⚡ Lightning-fast development with Vite HMR
+## ✨ Features
 
-♻️ Component-based and reusable React structure
+- 🔍 Search for anime titles via AniList GraphQL API  
+- 🖼️ Display cover images, titles, and details  
+- ⚡ Lightning-fast development with Vite HMR  
+- ♻️ Component-based and reusable React structure  
+- 🧠 Clean, maintainable, and modern React code
 
-🧠 Clean, maintainable, and modern React code
+---
 
-🔧 Stack
-React
+## 🔧 Stack
 
-Vite
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [AniList GraphQL API](https://anilist.gitbook.io/)
+- [ESLint](https://eslint.org/)
 
-AniList GraphQL API
+---
 
-ESLint
+## 🚀 Getting Started
 
-Tailwind CSS (optional, if you use it)
-
-🚀 Getting Started
-bash
-Copy
-Edit
+```bash
 # Clone this repo
-git clone https://github.com/yourusername/anilist-explorer.git
-cd anilist-explorer
+git clone https://github.com/narehiko/reactMovieAPI.git
+cd reactMovieAPI
 
 # Install dependencies
 npm install
 
-# Run the dev server
+# Run the development server
 npm run dev
-📁 Project Structure
-graphql
-Copy
-Edit
-src/
-├── assets/         # Images or static assets
-├── components/     # Reusable React components
-├── pages/          # Page-based structure (if using React Router)
-├── api/            # API utility functions (GraphQL queries)
-├── App.jsx
-└── main.jsx
-🔌 Using the AniList API
-This app uses the AniList GraphQL API to fetch anime data. Here’s a simple example of a GraphQL query used:
-
-graphql
-Copy
-Edit
-query ($search: String) {
-  Media(search: $search, type: ANIME) {
-    id
-    title {
-      romaji
-      english
-    }
-    coverImage {
-      large
-    }
-    description
-  }
-}
-You can use https://anilist.co/graphiql to test your queries.
-
-📦 Build for Production
-bash
-Copy
-Edit
-npm run build
-🧪 Linting
-bash
-Copy
-Edit
-npm run lint
-📜 License
-MIT License © 2025 [Your Name]
