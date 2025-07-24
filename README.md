@@ -2,8 +2,8 @@
 
 A simple and fast anime explorer built with **React** + **Vite**, using the [AniList GraphQL API](https://anilist.gitbook.io) to fetch real-time anime data.
 
-![Vite + React](https://img.shields.io/badge/Vite-%5E5.0-purple?style=flat&logo=vite)
-![React](https://img.shields.io/badge/React-18.x-blue?style=flat&logo=react)
+![Vite + React](https://img.shields.io/badge/Vite-%5E^7.0.4-purple?style=flat&logo=vite)
+![React](https://img.shields.io/badge/React-^19.1.0-blue?style=flat&logo=react)
 ![GraphQL](https://img.shields.io/badge/API-AniList-ff69b4?style=flat&logo=graphql)
 
 ---
